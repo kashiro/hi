@@ -64,20 +64,6 @@
 	animation-name: tada;
 }
 
-@-webkit-keyframes pulse {
-	0% {
-		box-shadow: 0 0 5px rgba(77, 173, 208, 0.1);
-	}
-
-	50% {
-		box-shadow: 0 0 60px rgba(77, 173, 208, 0.8);
-	}
-
-	100% {
-		box-shadow: 0 0 5px rgba(77, 173, 208, 0.1);
-	}
-}
-
 html {
 	background: #badbc9 url(bg.jpg) no-repeat center center fixed;
 	background-size: cover;
@@ -177,11 +163,10 @@ a {
 
 .profile img {
 	margin-right: 3px;
-	border-radius: 150px;
+	border-radius: 130px;
 	display: inline-block;
 	position: relative;
 	z-index: 1;
-	-webkit-animation: pulse 2.2s infinite ease-in-out;
 	opacity: 0.9;
 }
 
@@ -220,7 +205,7 @@ a {
 
 .links a {
 	font-size: 20px;
-	color: #fff;
+	color: #999;
 }
 
 .more {
@@ -231,32 +216,6 @@ a {
 	padding-bottom: 250px;
 	padding-left: 0;
 	padding-right: 0;
-}
-
-.app-list {
-	list-style: none;
-	padding: 0;
-	margin: 0;
-}
-
-.app-list li {
-	display: inline-block;
-	margin: 40px;
-}
-
-.app-list li a {
-	display: block;
-}
-
-.app-list h3 {
-	line-height: 50px;
-	color: black;
-}
-
-.app-list img {
-	display: block;
-	filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.2));
-	-webkit-filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.2));
 }
 
 @media (max-width: 767px) {
