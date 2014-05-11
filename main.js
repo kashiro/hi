@@ -20,8 +20,6 @@
 		}
 	});
 
-	$('.email').attr('href', 'mailto:' + 'ksrtmyk' + '@' + 'gmail' + '.' + 'com');
-
 	$('.profile a').on('mouseover mouseout', function (e) {
 		$(this).toggleClass('animated tada', e.type === 'mouseover');
 	});
