@@ -20,7 +20,7 @@
 		}
 	});
 
-	$('.profile a').on('mouseover mouseout', function (e) {
+	$('.profile img').on('mouseover mouseout', function (e) {
 		$(this).toggleClass('animated tada', e.type === 'mouseover');
 	});
 
